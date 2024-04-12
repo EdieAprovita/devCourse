@@ -1,0 +1,19 @@
+{
+	"ts-node": {
+		"transpileOnly": true,
+		"files": true
+	},
+	"compilerOptions": {
+		"allowJs": true,
+		"target": "ES6",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"esModuleInterop": true,
+		"outDir": "./dist",
+		"rootDir": "./src"
+	},
+
+	"include": ["src/app.ts"],
+	"exclude": ["node_modules", "dist", "test"]
+}
